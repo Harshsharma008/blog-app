@@ -3,9 +3,9 @@
 function Footer() {
     return (
         <div>
-            <footer class="text-gray-600 body-font bottom-0">
+            <footer class="text-black font-bold tracking-widest body-font bottom-0">
                 <div class="container px-5 py-24 mx-auto text-center">
-                    <h1 className="text-4xl font-bold">Let’s make something amazing together.<br /> Start by <span className="text-sky-400">Saying Hi!</span></h1>
+                    <h1 className="text-4xl font-bold">Let’s make something amazing together.<br /> Start by <span className="text-sky-600">Saying Hi!</span></h1>
                 </div>
                 <div class="bg-sky-500">
                     <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
