@@ -1,16 +1,4 @@
 
-import Link from "next/link";
-import {
-  Menubar,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarTrigger,
-} from "@/components/ui/menubar"
-import { Button } from "@/components/ui/button"
-
 
 const Navbar = () => {
   return (
@@ -21,16 +9,16 @@ const Navbar = () => {
             
             <span class="ml-3 text-xl font-bold">Shubham Patodia</span>
           </a>
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">First Link</a>
-            <a class="mr-5 hover:text-gray-900">Second Link</a>
-            <a class="mr-5 hover:text-gray-900">Third Link</a>
-            <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center cursor-pointer">
+            <a class="mr-5 hover:text-gray-900 ">About</a>
+            <a class="mr-5 hover:text-gray-900">Products</a>
+            <a class="mr-5 hover:text-gray-900">Blogs</a>
+            <a class="mr-5 hover:text-gray-900">Testimonial</a>
+            <a class="mr-5 hover:text-gray-900">Contact</a>
+
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
+          <button class="inline-flex items-center bg-sky-500  text-white font-bold border-0 rounded-full  py-2 px-2 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Connnect Now
+            
           </button>
         </div>
       </header>

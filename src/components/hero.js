@@ -2,7 +2,7 @@
 
 function Hero() {
     return (
-        <div><main className='bg-sky-100'>
+        <div><main className='bg-sky-100 pt-5'>
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -17,10 +17,9 @@ function Hero() {
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         <div class="relative flex justify-center items-start h-64">
-                            {/* <!-- Semi-circle --> */}
-                            <div class="w-32 h-16 bg-blue-500 rounded-t-full absolute top-0"></div>
+                            
                             {/* <!-- Rectangle --> */}
-                            <div class="w-32 h-32 bg-blue-500 absolute top-8"></div>
+                            <div class="w-32 h-32 bg-blue-500 botom-0 border "></div>
                         </div>
 
                     </div>
